@@ -1,0 +1,58 @@
+#container,ul {
+    background-color: black;
+    display:flex;
+  }
+  
+  h1 {
+    color:white;
+  }
+  
+  #divider
+  {
+    display:flex;
+    color:white;
+    margin:10px 10px
+  }
+  
+  hr{
+    width:80px;
+  }
+  
+  p,h3,a {
+    color:white;
+  }
+  
+  li{
+    margin-left:10px;
+  }
+  
+  #buttonSignIn{
+   display:flex;
+   flex-direction:column;
+  }
+  #googleSvg{
+    height:16px;
+    width:16px;
+  }
+  button{
+    padding:10px;
+    border-radius:100px;
+  }
+  #createBtn{
+    background-color:blue;
+    color:white;
+  }
+  
+  #appleBtn{
+    background-color:gray;
+    color:white;
+    border:2px solid white;
+  }
+  #appleSvg{
+    height:16px;
+    width:16px;
+  }
+  #small {
+    font-size:12px;
+  }
+  
