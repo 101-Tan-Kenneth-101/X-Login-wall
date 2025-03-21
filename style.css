@@ -1,58 +1,162 @@
-#container,ul {
-    background-color: black;
-    display:flex;
-  }
-  
-  h1 {
-    color:white;
-  }
-  
-  #divider
-  {
-    display:flex;
-    color:white;
-    margin:10px 10px
-  }
-  
-  hr{
-    width:80px;
-  }
-  
-  p,h3,a {
-    color:white;
-  }
-  
-  li{
-    margin-left:10px;
-  }
-  
-  #buttonSignIn{
-   display:flex;
-   flex-direction:column;
-  }
-  #googleSvg{
-    height:16px;
-    width:16px;
-  }
-  button{
-    padding:10px;
-    border-radius:100px;
-  }
-  #createBtn{
-    background-color:blue;
-    color:white;
-  }
-  
-  #appleBtn{
-    background-color:gray;
-    color:white;
-    border:2px solid white;
-  }
-  #appleSvg{
-    height:16px;
-    width:16px;
-  }
-  #small {
-    font-size:12px;
-  }
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  width: 100vw;
+  font-style: Arial;
+  height: 100vh;
+  overflow: auto;
+  color: white;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.box {
+  flex: 1;               
+  min-width: 250px;     
+  max-width: 500px;     
+  height: 100%;         
+  display: flex;        
+  flex-direction: column; 
+}
+
+.box1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: left;
+  justify-content: center; 
+  align-items: center;
+  gap: 20px;     
+}
+
+.box2 h1{
+  font-size: 70px;
+}
+
+.box2 a{
+  color: blue;
+}
+
+.box.box1.logo {
+  width: 450px;                
+  height: 350px;         
+}
+
+button {
+  width: 250px;
+  padding: 10px;
+  border-radius: 2rem;
+}
+
+#container, ul {
+  background-color: black;
+  display: flex;
+}
+
+h1 {
+  color: white;
+  font-size: 70px;
+}
+
+#divider {
+  display: flex;
+  color: white;
+  margin: 10px 10px;
+}
+
+hr {
+  width: 80px;
+}
+
+p,h3,a {
+  color: white;
+}
+
+li {
+  margin-left: 10px;
+}
+
+.or-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.line {
+  flex: 1;
+  border: none;
+  border-top: 1px solid #ccc; /* Horizontal line color */
+  margin: 0 10px; /* Space between line and text */
+}
+
+#buttonSignIn {
+  display: flex;
+  flex-direction: column;
+}
+
+#googleSvg, #appleSvg {
+  height: 16px;
+  width: 16px;
+}
+
+#createBtn {
+  background-color: blue;
+  color: white;
+}
+
+#appleBtn {
+  background-color: gray;
+  color: white;
+  border: 2px solid white;
+}
+
+#createBtn{
+  background-color: blue;
+  color: white;
+}
+
+#signInBtn{
+  background-color: black;
+  color:blue;
+}
+
+#small {
+  font-size: 12px;
+}
+
+.navbar {
+  display: flexbox;
+  justify-content: space-evenly;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+
+.navbar a{
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.navbar a:active {
+  text-decoration: underline;
+}
